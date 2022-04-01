@@ -11,13 +11,16 @@ body{
 /* logo */
 .logo{
     color: #2196F3;
+    text-decoration: none;
 }
 .slogo{
     color: #000000;
+    text-decoration: none;
 }
 /* site navigation */
 .site-nav .link{
 color: rgba(33, 33, 33, 1);
+text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -26,6 +29,7 @@ color: rgba(33, 33, 33, 1);
 /* site authentication */
 .auth-nav .link{
     color: rgba(117, 117, 117, 1);
+    text-decoration: none;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -40,11 +44,6 @@ color: rgba(33, 33, 33, 1);
     background-color: rgba(33, 150, 243, 1);
     color: rgba(255, 255, 255, 1);
 }
-
-
-
-
-
 
 .lists{
     list-style: none;
