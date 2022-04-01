@@ -18,7 +18,7 @@
 body{
     background-color: var(--main-bg-color);
     color:rgba(117, 117, 117, 1) ;
-    font-family: Roboto, serif;
+    font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
 /* .header{
