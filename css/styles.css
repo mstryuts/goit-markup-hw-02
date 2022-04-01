@@ -98,7 +98,8 @@ letter-spacing: 0.02em;
     letter-spacing: 0.06em;
     cursor: pointer;
 }
-.hero-button:hover{
+.hero-button:hover,
+.hero-button:focus{
     color: var(--accent-color);
     background-color: var(--white-color);
 }
