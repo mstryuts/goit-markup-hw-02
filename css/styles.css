@@ -4,47 +4,207 @@
 /* белый #FFFFFF */
 /* белый прозр футер адрес (255, 255, 255, 0.6) */
 /* вторичный цвет фона #F5F4FA */
-body{
-    background-color: #E5E5E5;
-    color:rgba(117, 117, 117, 1) ;
+:root {
+    --main-color: #757575;
+    --sec-color: #212121;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --main-bg-color:#E5E5E5;
+    --bc-team: rgba(245, 244, 250, 1);
+    --footer-contact: rgba(255, 255, 255, 0.6);
+    --herofooter-back-color: rgba(47, 48, 58, 1);
+    --hero-bgc:#2F303A;
 }
+body{
+    background-color: var(--main-bg-color);
+    color:rgba(117, 117, 117, 1) ;
+    font-family: Roboto, serif;
+    letter-spacing: 0.03em;
+}
+/* .header{
+    background-color: var(--white-color);
+} */
 /* logo */
 .logo{
     color: #2196F3;
     text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
 }
 .slogo{
     color: #000000;
     text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
 }
 /* site navigation */
 .site-nav .link{
 color: rgba(33, 33, 33, 1);
 text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: rgba(33, 150, 243, 1);
 }
+.site-nav .link.current{
+    color: rgba(33, 150, 243, 1);
+}
+
 /* site authentication */
 .auth-nav .link{
     color: rgba(117, 117, 117, 1);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
     color: rgba(33, 150, 243, 1);
 }
-.button-list .buttons{
+
+/* hero */
+/* .hero{
+    background-color:var(--hero-bgc);
+} */
+
+.hero-title{
+    color:var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero-button{
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 1.87;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+.hero-button:hover{
+    color: var(--accent-color);
+    background-color: var(--white-color);
+}
+/* sections h2 h3 */
+.section .section-features{
+    color:var(--sec-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.section .features-description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* од размеры */
+ .section-title{ 
+    color: var(--sec-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+.section .crew-title{
+    color:var(--sec-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+.section .crew-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+/* footer */
+.slogo-footer{
+    color:var(--white-color);
+}
+.footeradress{
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+    text-decoration: none;
+}
+.footermail{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+    text-decoration: none;
+    color: var(--footer-contact);
+}
+.footermail:hover,
+.footermail:focus{
+    color:var(--accent-color);
+}
+.footerphone{
+    color:var(--footer-contact);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+    text-decoration: none;
+}
+.footerphone:hover,
+.footerphone:focus {
+    color: var(--accent-color);
+}
+/* .underground{
+    background-color: var(--hero-bgc);
+} */
+
+/* portfolio */
+.button-list .buttons {
     color: rgba(33, 33, 33, 1);
     background-color: rgba(245, 244, 250, 1);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    cursor: pointer;
+    
 }
+
 .button-list .buttons:hover,
-.button-list .buttons:focus{
+.button-list .buttons:focus {
     background-color: rgba(33, 150, 243, 1);
     color: rgba(255, 255, 255, 1);
 }
 
-.lists{
-    list-style: none;
+/* examples */
+
+.example-title{
+    color: var(--sec-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.example-descritrion{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
 }
