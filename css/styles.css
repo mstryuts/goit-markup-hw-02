@@ -10,7 +10,7 @@
     --accent-color: #2196F3;
     --white-color: #FFFFFF;
     --main-bg-color:#E5E5E5;
-    --bc-team: rgba(245, 244, 250, 1);
+    --bc-team: #F5F4FA;
     --footer-contact: rgba(255, 255, 255, 0.6);
     --herofooter-back-color: rgba(47, 48, 58, 1);
     --hero-bgc:#2F303A;
@@ -125,14 +125,24 @@ letter-spacing: 0.02em;
     line-height: 1.16;
     text-align: center;
 }
-.section .crew-title{
+/* .section-team{
+    background-color: var(--bc-team);
+} */
+.section-crew {
+    color: var(--sec-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+.section-team .crew-title{
     color:var(--sec-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
 }
-.section .crew-description{
+.section-team .crew-description{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
