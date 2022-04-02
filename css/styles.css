@@ -122,6 +122,9 @@ letter-spacing: 0.02em;
 .section .features-description{
     line-height: 1.71;
 }
+.peculiarities{
+    list-style: none;
+}
 
 /* од размеры */
  .section-title{ 
@@ -131,13 +134,18 @@ letter-spacing: 0.02em;
     line-height: 1.16;
     text-align: center;
 }
-
+.work-examples{
+    list-style: none;
+}
 /* секция команды */
 .section-team{
     background-color: var(--bc-team);
 }
 .crew{
     background-color: var(--white-color);
+}
+.team-crew{
+    list-style: none;
 }
 .section-crew {
     color: var(--sec-color);
@@ -146,6 +154,7 @@ letter-spacing: 0.02em;
     line-height: 1.16;
     text-align: center;
 }
+
 .section-team .crew-title{
     color:var(--sec-color);
     font-weight: 500;
