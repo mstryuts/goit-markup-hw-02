@@ -21,9 +21,12 @@ body{
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
-/* .header{
+
+
+/* header */
+.header {
     background-color: var(--white-color);
-} */
+}
 /* logo */
 .logo{
     color: #2196F3;
@@ -31,7 +34,7 @@ body{
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19px;
+    line-height: 1.19;
 }
 .slogo{
     color: #000000;
@@ -73,9 +76,9 @@ letter-spacing: 0.02em;
 }
 
 /* hero */
-/* .hero{
+.hero{
     background-color:var(--hero-bgc);
-} */
+}
 
 .hero-title{
     color:var(--white-color);
@@ -125,9 +128,14 @@ letter-spacing: 0.02em;
     line-height: 1.16;
     text-align: center;
 }
-/* .section-team{
+
+/* секция команды */
+.section-team{
     background-color: var(--bc-team);
-} */
+}
+.card{
+    background-color: var(--white-color)
+}
 .section-crew {
     color: var(--sec-color);
     font-weight: 700;
@@ -158,6 +166,7 @@ letter-spacing: 0.02em;
     font-size: 14px;
     line-height: 2;
     text-decoration: none;
+    font-style: inherit;
 }
 .footermail{
     font-weight: 400;
@@ -165,6 +174,7 @@ letter-spacing: 0.02em;
     line-height: 2;
     text-decoration: none;
     color: var(--footer-contact);
+    font-style: inherit;
 }
 .footermail:hover,
 .footermail:focus{
@@ -176,14 +186,15 @@ letter-spacing: 0.02em;
     font-size: 14px;
     line-height: 2;
     text-decoration: none;
+    font-style: inherit;
 }
 .footerphone:hover,
 .footerphone:focus {
     color: var(--accent-color);
 }
-/* .underground{
+.underground{
     background-color: var(--hero-bgc);
-} */
+}
 
 /* portfolio */
 .button-list .buttons {
