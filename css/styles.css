@@ -134,7 +134,7 @@ letter-spacing: 0.02em;
     background-color: var(--bc-team);
 }
 .card{
-    background-color: var(--white-color)
+    background-color: var(--white-color);
 }
 .section-crew {
     color: var(--sec-color);
