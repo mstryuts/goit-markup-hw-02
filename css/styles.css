@@ -12,7 +12,7 @@
     --main-bg-color:#E5E5E5;
     --bc-team: #F5F4FA;
     --footer-contact: rgba(255, 255, 255, 0.6);
-    --herofooter-back-color: rgba(47, 48, 58, 1);
+    --herofooter-back-color: #2F303A;
     --hero-bgc:#2F303A;
 }
 body{
@@ -55,10 +55,10 @@ letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: rgba(33, 150, 243, 1);
+    color: var(--accent-color);
 }
 .site-nav .link.current{
-    color: rgba(33, 150, 243, 1);
+    color: var(--accent-color);
 }
 
 /* site authentication */
@@ -72,7 +72,7 @@ letter-spacing: 0.02em;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-    color: rgba(33, 150, 243, 1);
+    color: var(--accent-color);
 }
 
 /* hero */
@@ -198,8 +198,8 @@ letter-spacing: 0.02em;
 
 /* portfolio */
 .button-list .buttons {
-    color: rgba(33, 33, 33, 1);
-    background-color: rgba(245, 244, 250, 1);
+    color: var(--sec-color);
+    background-color: var(--bc-team);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -212,8 +212,8 @@ letter-spacing: 0.02em;
 
 .button-list .buttons:hover,
 .button-list .buttons:focus {
-    background-color: rgba(33, 150, 243, 1);
-    color: rgba(255, 255, 255, 1);
+    background-color: var(--accent-color);
+    color: var(--white-color);
 }
 
 /* examples */
