@@ -1,9 +1,4 @@
-/* основной цвет текста (33, 33, 33, 1) */
-/* вторичный цвет текста (117, 117, 117, 1) */
-/* цвет акцента #2196F3 */
-/* белый #FFFFFF */
-/* белый прозр футер адрес (255, 255, 255, 0.6) */
-/* вторичный цвет фона #F5F4FA */
+
 :root {
     --main-color: #757575;
     --sec-color: #212121;
@@ -99,7 +94,7 @@ letter-spacing: 0.02em;
     color: var(--white-color);
     background-color: var(--accent-color);
     font-weight: 700;
-    font-size: 30px;
+    font-size: 16px;
     line-height: 1.87;
     display: flex;
     align-items: center;
@@ -113,11 +108,12 @@ letter-spacing: 0.02em;
     background-color: var(--white-color);
 }
 /* sections h2 h3 */
-.section .section-features{
+.section-features{
     color:var(--sec-color);
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
+    font-size: inherit;
 }
 .section .features-description{
     line-height: 1.71;
@@ -176,6 +172,10 @@ letter-spacing: 0.02em;
     line-height: 2;
     text-decoration: none;
     font-style: normal;
+}
+.footeradress:hover,
+.footeradress:focus{
+color:var(--accent-color);
 }
 .footermail{
     line-height: 2;
@@ -239,7 +239,6 @@ letter-spacing: 0.02em;
 }
 .card{
     background-color: var(--white-color);
-    text-decoration: none;
     list-style: none;
 }
 .card-link{
