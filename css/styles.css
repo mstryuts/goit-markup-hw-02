@@ -164,6 +164,9 @@ letter-spacing: 0.02em;
     text-align: center;
 }
 /* footer */
+.adress-list{
+    list-style: none;
+}
 .slogo-footer{
     color:var(--white-color);
 }
